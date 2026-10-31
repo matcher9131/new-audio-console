@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Audio Console",
+  "version": "0.1.0",
+  "description": "Audio Console Chrome extension",
+  "action": {
+    "default_title": "Audio Console",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["tabCapture", "offscreen", "activeTab"]
+}
